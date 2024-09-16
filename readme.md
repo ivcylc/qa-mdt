@@ -1,4 +1,9 @@
+# SOTA awesome text to music generation (TTM)
 # QA-MDT Implementation
+
+checkpoint is provisionally provided, we will update more and debug(potential) soon
+链接: https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd 提取码: v9dd
+--来自百度网盘超级会员v8的分享
 
 ## Overview
 
