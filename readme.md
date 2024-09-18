@@ -51,3 +51,21 @@ sh infer/infer.sh
 # which match the training process and may further improve performance
 ```
 
+## Contact
+
+If you have any questions or suggestions, feel free to contact me via:
+
+- **Email**: [lc_lca@mail.ustc.edu.cn](mailto:lc_lca@mail.ustc.edu.cn)
+- **WeChat**: 19524292801
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```vim
+@article{li2024quality,
+  title={Quality-aware Masked Diffusion Transformer for Enhanced Music Generation},
+  author={Li, Chang and Wang, Ruoyu and Liu, Lijuan and Du, Jun and Sun, Yixuan and Guo, Zilu and Zhang, Zhenrong and Jiang, Yuan},
+  journal={arXiv preprint arXiv:2405.15863},
+  year={2024}
+}
