@@ -1,6 +1,7 @@
 # SOTA awesome text to music generation (TTM) model QA-MDT
 
 **Official Pytorch Implementation**
+without any fancy design, just a quality injection, and enjoy beautiful music
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=QA-MDT&color=red&logo=arxiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=yellow&logo=github.io"></a> &ensp;
@@ -24,8 +25,10 @@ This repository provides an implementation of QA-MDT, integrating state-of-the-a
 ```bash
 Python 3.10
 qamdt.yaml
-Downloaded all checkpoints needed in ./audioldm_train/config/mos_as_token/qa_mdt.yaml and offset_pretrained_checkpoints.json
 ```
+
+Before training, you need to download extra ckpts needed in ./audioldm_train/config/mos_as_token/qa_mdt.yaml and offset_pretrained_checkpoints.json
+Noted that: All above checkpoints is consist in 
 
 ## Training
 
