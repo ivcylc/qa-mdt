@@ -62,7 +62,7 @@ If you have any questions or suggestions, feel free to contact me via:
 
 If you find this project useful, please consider citing:
 
-```vim
+```bash
 @article{li2024quality,
   title={Quality-aware Masked Diffusion Transformer for Enhanced Music Generation},
   author={Li, Chang and Wang, Ruoyu and Liu, Lijuan and Du, Jun and Sun, Yixuan and Guo, Zilu and Zhang, Zhenrong and Jiang, Yuan},
