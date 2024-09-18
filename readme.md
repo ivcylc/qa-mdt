@@ -1,4 +1,4 @@
-# Awesome text to music generation (TTM) model QA-MDT
+# Awesome text to music generation (TTM) model **QA-MDT**
 
 **Official Pytorch Implementation**
 
