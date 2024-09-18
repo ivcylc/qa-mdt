@@ -33,9 +33,12 @@ Before training, you need to download extra ckpts needed in ./audioldm_train/con
 Noted that: All above checkpoints can be downloaded from:
 
 [flan-t5-large](https://huggingface.co/google/flan-t5-large)
+
 [clap_music](https://huggingface.co/lukewys/laion_clap/blob/main/music_speech_audioset_epoch_15_esc_89.98.pt)
+
 [roberta-base](https://huggingface.co/FacebookAI/roberta-base)
-[others](https://huggingface.co/cvssp/audioldm2-music/tree/main)
+
+[others](https://drive.google.com/file/d/1T6EnuAHIc8ioeZ9kB1OZ_WGgwXAVGOZS/view)
 
 
 ## Training
