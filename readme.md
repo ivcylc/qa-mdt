@@ -8,7 +8,7 @@
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=yellow&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=ckpt&color=black&logo=huggingface.co"></a> &ensp;
 
-checkpoint is provisionally provided, we will update more and debug(potential) soon
+For chinese users, you can also download your checkpoint through following link:
 
 https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd  
 
