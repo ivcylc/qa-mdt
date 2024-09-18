@@ -58,8 +58,8 @@ sh infer/infer.sh
 ```
 
 ## Contact
-
-If you have any questions or suggestions, feel free to contact me via:
+This is the first time I open source such a project, the code, the organization, the open source may not be perfect.
+If you have any questions, feel free to contact me via, and I'm looking forward to any suggestions:
 
 - **Email**: [lc_lca@mail.ustc.edu.cn](mailto:lc_lca@mail.ustc.edu.cn)
 - **WeChat**: 19524292801
