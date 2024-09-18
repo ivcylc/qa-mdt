@@ -29,7 +29,11 @@ qamdt.yaml
 ```
 
 Before training, you need to download extra ckpts needed in ./audioldm_train/config/mos_as_token/qa_mdt.yaml and offset_pretrained_checkpoints.json
-Noted that: All above checkpoints is consist in 
+
+Noted that: All above checkpoints can be downloaded from:
+
+[flan-t5-large](https://huggingface.co/google/flan-t5-large)
+
 
 ## Training
 
