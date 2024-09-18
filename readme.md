@@ -1,9 +1,11 @@
-# SOTA awesome text to music generation (TTM)
-# QA-MDT Implementation
+# SOTA awesome text to music generation (TTM) model QA-MDT
+# Official Pytorch Implementation
+
+<a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=QA-MDT&color=red&logo=arxiv"></a> &ensp;q
 
 checkpoint is provisionally provided, we will update more and debug(potential) soon
-链接: https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd 提取码: v9dd
---来自百度网盘超级会员v8的分享
+https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd  
+pwd:v9dd
 
 ## Overview
 
