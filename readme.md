@@ -6,7 +6,7 @@
 
 **I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well**
 
-<a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arxiv.2405&color=red&logo=arxiv"></a> &ensp;
+<a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
@@ -50,15 +50,132 @@ Noted that: All above checkpoints can be downloaded from:
 sh run.sh
 ```
 
-How to make your dataset for training or finetuning?
-Our model is already a well-pretrained model. If you wish to retrain or fine-tune it, you can choose to use or not use our QA strategy. We offer several training strategies:
+### How to Prepare for Training or Fine-tuning
 
-MDT without quality token: PixArt_MDT
-MDT with quality token: 
-DiT: PixArt_Slow
+Our model is already well-pretrained. If you wish to retrain or fine-tune it, you can choose to use or not use our QA strategy. We offer several training strategies:
 
-Just change "Your_Class" in "audioldm_train.modules.diffusionmodules.PixArt.Your_Class" in our [config](https://github.com/ivcylc/qa-mdt/blob/main/audioldm_train/config/mos_as_token/qa_mdt.yaml)
+- **MDT w.o quality token**: `PixArt_MDT`
+- **MDT with quality token**: `Pixart_MDT_MOS_AS_TOKEN`
+- **DiT**: `PixArt_Slow`
+- **U-net w / w.o quality prefix**: `you can just follow AudioLDM and make your dataset as illustrated in our paper (method part)`
 
+To train or fine-tune, simply change `"Your_Class"` in `audioldm_train.modules.diffusionmodules.PixArt.Your_Class` in our [config file](https://github.com/ivcylc/qa-mdt/blob/main/audioldm_train/config/mos_as_token/qa_mdt.yaml).
+
+you can also try modifying the patch size, overlap size for your best performance and computing resources trade off (see our Appendix in arXiv paper)
+
+#### How to Prepare Your Dataset for Training or Fine-tuning
+
+We use the **LMDB** dataset format for training. You can modify the dataloader according to your own training needs.
+
+If you'd like to follow our process (though we don't recommend it, as it can be complex), here's how you can create a toy LMDB dataset:
+
+1. **Create a Proto File**
+
+   First, create a file named `datum_all.proto` with the following content:
+
+   ```proto
+   syntax = "proto2";
+
+   message Datum_all {
+     repeated float wav_file = 1;
+     required string caption_original = 2;
+     repeated string caption_generated = 3;
+     required float mos = 4;
+   }
+2. **Generate Python Bindings**
+
+  Run the following command in your terminal to generate Python bindings:
+
+  ```bash
+  protoc --python_out=./ datum_all.proto
+  ```
+
+  This will create a file called **datum_all_pb2.py**. We have also provided this file in our datasets folder, and you can check if it matches the one you generated. **Never attempt to modify this file, as doing so could cause errors.**
+  
+3. **Code for Preparing a toy LMDB Dataset**
+
+  The following Python script demonstrates how to prepare your dataset in the LMDB format:
+  
+  ```python
+  import torch
+  import os
+  import lmdb
+  import time
+  import numpy as np
+  import librosa
+  import os
+  import soundfile as sf
+  import io
+  
+  from datum_all_pb2 import Datum_all as Datum_out
+  
+  device = 'cpu'
+  count = 0
+  total_hours = 0
+  
+  # Define paths
+  lmdb_file = '/disk1/changli/toy_lmdb'
+  toy_path = '/disk1/changli/audioset'
+  lmdb_key = os.path.join(lmdb_file, 'data_key.key')
+  
+  # Open LMDB environment
+  env = lmdb.open(lmdb_file, map_size=1e12)
+  txn = env.begin(write=True)
+  final_keys = []
+  
+  def _resample_load_librosa(path: str, sample_rate: int, downmix_to_mono: bool, **kwargs):
+      """Load and resample audio using librosa."""
+      src, sr = librosa.load(path, sr=sample_rate, mono=downmix_to_mono, **kwargs)
+      return src
+  
+  start_time = time.time()
+  
+  # Walk through the dataset directory
+  for root, _, files in os.walk(toy_path):
+      for file in files:
+          audio_path = os.path.join(root, file)
+          key_tmp = audio_path.replace('/', '_')
+          audio = _resample_load_librosa(audio_path, 16000, True)
+          
+          # Create a new Datum object
+          datum = Datum_out()
+          datum.wav_file.extend(audio)
+          datum.caption_original = 'audio'.encode()
+          datum.caption_generated.append('audio'.encode())
+          datum.mos = -1
+  
+          # Write to LMDB
+          txn.put(key_tmp.encode(), datum.SerializeToString())
+          final_keys.append(key_tmp)
+  
+          count += 1
+          total_hours += 1.00 / 60 / 10
+  
+          if count % 1 == 0:
+              elapsed_time = time.time() - start_time
+              print(f'{count} files written, time: {elapsed_time:.2f}s')
+              txn.commit()
+              txn = env.begin(write=True)
+  
+  # Finalize transaction
+  try:
+      total_time = time.time() - start_time
+      print(f'Packing completed: {count} files written, total_hours: {total_hours:.2f}, time: {total_time:.2f}s')
+      txn.commit()
+  except:
+      pass
+  
+  env.close()
+  
+  # Save the LMDB keys
+  with open(lmdb_key, 'w') as f:
+      for key in final_keys:
+          f.write(key + '\n')
+  ```
+
+4. **Input your generated lmdb path and its corresponding key file oath into the config**
+
+5. **Start your training**
 
 ## Inference
 
