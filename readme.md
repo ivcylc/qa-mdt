@@ -4,6 +4,8 @@
 
 **without any fancy design, just a quality injection, and enjoy your beautiful music**
 
+**I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well**
+
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arxiv.2405&color=red&logo=arxiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
