@@ -44,12 +44,15 @@ Noted that: All above checkpoints can be downloaded from:
 
 [others](https://drive.google.com/file/d/1T6EnuAHIc8ioeZ9kB1OZ_WGgwXAVGOZS/view)
 
-
 ## Training
 
 ```bash
 sh run.sh
 ```
+
+How to make your dataset for training or finetuning?
+
+
 
 ## Inference
 
@@ -79,3 +82,4 @@ If you find this project useful, please consider citing:
   journal={arXiv preprint arXiv:2405.15863},
   year={2024}
 }
+```
