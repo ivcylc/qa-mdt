@@ -1,6 +1,6 @@
 # Awesome text to music generation (TTM) : QA-MDT
 
-**Official Pytorch Implementation**
+## Official Pytorch Implementation
 
 **without any fancy design, just a quality injection, and enjoy your beautiful music**
 
