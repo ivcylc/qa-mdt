@@ -1,13 +1,12 @@
 # Awesome text to music generation (TTM) : QA-MDT
 
 ## Official Pytorch Implementation
+## I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well
 
 **We have to admit that the Unet architecture still has some probability advantage in subjective musicality, but this is not measured in the metric.
 And, we did have some models that were better on the metric, or trained for longer, but we observed that the models generally became less musicality after training too long, so we picked a model that was moderate on the metric as an open source sample. If you need more models (extreme metric pursuit or extreme musically pursuit, please contact me)**
 
 **without any fancy design, just a quality injection, and enjoy your beautiful music**
-
-**I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well**
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
