@@ -51,7 +51,13 @@ sh run.sh
 ```
 
 How to make your dataset for training or finetuning?
+Our model is already a well-pretrained model. If you wish to retrain or fine-tune it, you can choose to use or not use our QA strategy. We offer several training strategies:
 
+MDT without quality token: PixArt_MDT
+MDT with quality token: 
+DiT: PixArt_Slow
+
+Just change "Your_Class" in "audioldm_train.modules.diffusionmodules.PixArt.Your_Class" in our [config](https://github.com/ivcylc/qa-mdt/blob/main/audioldm_train/config/mos_as_token/qa_mdt.yaml)
 
 
 ## Inference
