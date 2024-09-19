@@ -10,6 +10,8 @@
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
+Down the main checkpoint of our QA-MDT model from [https://huggingface.co/lichang0928/QA-MDT](https://huggingface.co/lichang0928/QA-MDT)
+
 For chinese users, you can also download your checkpoint through following link:
 
 https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd  
