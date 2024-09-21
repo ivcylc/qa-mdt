@@ -180,7 +180,6 @@ If you'd like to follow our process (though we don't recommend it, as it can be 
 5. **Start your training**
 
 ## Inference
-()
 ```bash
 sh infer/infer.sh
 # you may change the infer.sh for witch quality level you want to infer
