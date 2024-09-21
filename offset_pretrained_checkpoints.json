@@ -1,4 +1,3 @@
-// TODO: change this with your pretrained path
 {
     "clap_music" : "checkpoints/clap_music_speech_audioset_epoch_15_esc_89.98.pt",
     "flan_t5" : "checkpoints/flan-t5-large",
