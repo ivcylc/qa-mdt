@@ -209,6 +209,8 @@ If you have any questions about our model, code and datasets, feel free to conta
 - **Email**: [lc_lca@mail.ustc.edu.cn](mailto:lc_lca@mail.ustc.edu.cn)
 - **WeChat**: 19524292801
 
+I will try my best to provide more projects on music and audio in the future ~
+
 ## Citation
 
 If you find this project useful, please consider citing:
