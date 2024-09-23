@@ -1,6 +1,10 @@
 # Awesome open-source text to music generation (TTM): QA-MDT (OpenMusic)
 ## Official Pytorch Implementation
 
+<a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
+<a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
+<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
+
 ### Diffusers Implementation 🧨 - by [@jadechoghari](https://github.com/jadechoghari) - Hugging Face 🤗.
 Setting up is super easy! Just follow the instructions below:
 
@@ -21,10 +25,6 @@ python gradio/gradio_app.py
 And, we did have some models that were better on the metric, or trained for longer, but we observed that the models generally became less musicality after training too long, so we picked a model that was moderate on the metric as an open source sample. If you need more models (extreme metric pursuit or extreme musically pursuit, please contact me)**
 
 **without any fancy design, just a quality injection, and enjoy your beautiful music**
-
-<a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
-<a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo&message=QA-MDT&color=black&logo=github.io"></a> &ensp;
-<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
 Down the main checkpoint of our QA-MDT model from [https://huggingface.co/lichang0928/QA-MDT](https://huggingface.co/lichang0928/QA-MDT)
 
