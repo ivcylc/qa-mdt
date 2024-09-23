@@ -1,5 +1,4 @@
 # Awesome text to music generation (TTM): QA-MDT (OpenMusic)
-
 ## Official Pytorch Implementation
 ## I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well
 
@@ -10,6 +9,13 @@ Setting up is super easy! Just follow the instructions below:
 
 ### Try the Model here: 
 [![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-orange)](https://huggingface.co/spaces/jadechoghari/OpenMusic)
+
+### Run locally on Gradio
+
+```
+pip install gradio/requirements.txt
+python gradio/gradio_app.py 
+```
 
 
 **We have to admit that the Unet architecture still has some probability advantage in subjective musicality, but this is not measured in the metric.
