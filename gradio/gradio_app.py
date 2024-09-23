@@ -6,6 +6,7 @@ import spaces
 import sys
 
 # Comment this section if you have the dependencies installed
+os.system('git clone https://huggingface.co/jadechoghari/openmusic')
 os.system('pip install -r gradio/requirements.txt')
 os.system('pip install xformers==0.0.26.post1')
 os.system('pip install torchlibrosa==0.0.9 librosa==0.9.2')
