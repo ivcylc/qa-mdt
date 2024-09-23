@@ -1,5 +1,5 @@
 # Awesome open-source text to music generation (TTM): QA-MDT (OpenMusic)
-### Official Pytorch Implementation
+### Official Pytorch Implementation (try our demo first!)
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=lightblue&logo=github.io"></a> &ensp;
