@@ -1,4 +1,4 @@
-# Awesome text to music generation (TTM): QA-MDT (OpenMusic)
+# Awesome open-source text to music generation (TTM): QA-MDT (OpenMusic)
 ## Official Pytorch Implementation
 ## I recommend anyone to listen to our demo, even under the clutter of tabs in Musiccaps, we still perform well
 
