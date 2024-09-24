@@ -198,7 +198,7 @@ If you'd like to follow our process (though we don't recommend it, as it can be 
 sh infer/infer.sh
 # you may change the infer.sh for witch quality level you want to infer
 # defaultly, it should be set to 5 which represent highest quality
-# Additionly, it may be useful to change the prompt with text prefix "high quality", 
+# Additionally, it may be useful to change the prompt with text prefix "high quality", 
 # which match the training process and may further improve performance
 ```
 
