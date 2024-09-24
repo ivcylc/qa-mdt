@@ -30,7 +30,7 @@ Down the main checkpoint of our QA-MDT model from [https://huggingface.co/lichan
 
 For chinese users, you can also download your checkpoint through following link:
 
-https://pan.baidu.com/s/1pkLnQhbNeFjKRadXUy_7Iw?pwd=v9dd  
+链接: https://pan.baidu.com/s/1N0XqVxtF_x9I7fWb07LPqw?pwd=9nkt
 
 ## Overview
 
