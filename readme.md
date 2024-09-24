@@ -3,7 +3,7 @@
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=lightblue&logo=github.io"></a> &ensp;
-<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=Ckpts&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
+<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=Ckpt&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
 ### Diffusers Implementation 🧨 - by [@jadechoghari](https://github.com/jadechoghari) - Hugging Face 🤗.
 Setting up is super easy! Just follow the instructions below:
