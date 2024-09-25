@@ -18,7 +18,7 @@ Setting up is super easy! Just follow the instructions below:
 ### Run locally on Gradio
 
 ```
-pip install gradio/requirements.txt
+pip install -r gradio/requirements.txt
 python gradio/gradio_app.py 
 ```
 
