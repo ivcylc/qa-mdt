@@ -2,8 +2,8 @@
 ### Official Pytorch Implementation (try our demo first!)
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
-<a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=lightblue&logo=github.io"></a> &ensp;
-<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=Ckpt&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
+<a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=purple&logo=github.io"></a> &ensp;
+<a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=CKPT&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
 [![Quality-Aware Masked Diffusion Transformer](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/music-generation-on-song-describer-dataset)]([https://paperswithcode.com/paper/music-generation-on-song-describer-dataset](https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/text-to-music-generation-on-musiccaps))
 
