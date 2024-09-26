@@ -5,6 +5,12 @@
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=lightblue&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=Ckpt&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
+[![Quality-Aware Masked Diffusion Transformer](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/music-generation-on-song-describer-dataset)]([https://paperswithcode.com/paper/music-generation-on-song-describer-dataset](https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/text-to-music-generation-on-musiccaps))
+
+[![Quality-Aware Masked Diffusion Transformer](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/text-to-music-generation-on-musiccaps)]([https://paperswithcode.com/paper/quality-aware-masked-diffusion-transformer](https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/text-to-music-generation-on-musiccaps))
+
+
+
 (Trying to support audio-to-audio generation is in my todo list, such that you can input music tracks and the LDM will help merge them~)
 
 ### Thanks for advertisement on locally test in [YouTube](https://www.youtube.com/watch?v=L4dIRvYrJ8g)! - by [@Fahd Mirza](https://www.youtube.com/@fahdmirza)
