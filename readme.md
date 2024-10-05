@@ -111,6 +111,7 @@ If you'd like to follow our process (though we don't recommend it, as it can be 
 2. **Generate Python Bindings**
 
   (Your protoc version should be 3.4, and you can download it [here](https://github.com/protocolbuffers/protobuf/releases/download/v3.4.0/protoc-3.4.0-linux-x86_64.zip))
+  
   Run the following command in your terminal to generate Python bindings:
 
   ```bash
