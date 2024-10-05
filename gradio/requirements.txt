@@ -206,12 +206,12 @@ timm
 tokenizers
 tomli
 tomlkit
-torch
-torchaudio
+# torch
+# torchaudio
 torchdiffeq
 torchlibrosa
 torchmetrics
-torchvision
+# torchvision
 tqdm
 traitlets
 transformers
@@ -236,8 +236,8 @@ xformers
 yarl
 yt-dlp
 zipp
-torch==2.3.0+cu121
-torchvision==0.18.0+cu121
+torch==2.3.0
+torchvision==0.18.0
 torchaudio==2.3.0
 pytorch_lightning==2.1.3
 torchlibrosa==0.0.9
