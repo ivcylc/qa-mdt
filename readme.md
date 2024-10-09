@@ -5,7 +5,7 @@
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=purple&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=CKPT&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
 
-<a href="https://www.modelscope.cn/studios/paper_author_team/OpenMusic_demo"><img src="https://img.shields.io/static/v1?label=魔塔社区 demo &message=mota&color=blue&logo=魔塔社区"></a> &ensp;
+<a href="https://www.modelscope.cn/studios/paper_author_team/OpenMusic_demo"><img src="https://img.shields.io/static/v1?label=魔塔社区 demo &message=ModelScope&color=blue&logo=魔塔社区"></a> &ensp;
 
 [![Quality-Aware Masked Diffusion Transformer](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/music-generation-on-song-describer-dataset)]([https://paperswithcode.com/paper/music-generation-on-song-describer-dataset](https://paperswithcode.com/badge/quality-aware-masked-diffusion-transformer/text-to-music-generation-on-musiccaps))
 
