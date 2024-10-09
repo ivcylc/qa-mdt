@@ -23,7 +23,7 @@ Setting up is super easy! Just follow the instructions below:
 [![QA-MDT](https://img.shields.io/badge/%F0%9F%A4%97%20OpenMusic-blue)](https://huggingface.co/jadechoghari/openmusic)
 
 ### Try the Model here: 
-[![Huggingface Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface Demo-orange)](https://huggingface.co/spaces/jadechoghari/OpenMusic)
+[![Huggingface Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-orange)](https://huggingface.co/spaces/jadechoghari/OpenMusic)
 
 ### Run locally on Gradio
 
