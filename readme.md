@@ -4,6 +4,7 @@
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
 <a href="https://qa-mdt.github.io/"><img src="https://img.shields.io/static/v1?label=Demo! really nice audio samples&message=QA-MDT&color=purple&logo=github.io"></a> &ensp;
 <a href="https://huggingface.co/lichang0928/QA-MDT"><img src="https://img.shields.io/static/v1?label=CKPT&message=huggingface&color=yellow&logo=huggingface.co"></a> &ensp;
+[![Page Views Count](https://badges.toozhao.com/badges/01JAFYYFT5F7TCK2JD5W74DRW5/orange.svg)](https://badges.toozhao.com/stats/01JAFYYFT5F7TCK2JD5W74DRW5 "Get your own page views count badge on badges.toozhao.com")
 
 <a href="https://www.modelscope.cn/studios/paper_author_team/OpenMusic_demo"><img src="https://img.shields.io/static/v1?label=魔塔社区 demo &message=ModelScope&color=blue&logo=魔塔社区"></a> &ensp;
 
