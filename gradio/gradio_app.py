@@ -24,7 +24,7 @@ pipe = MOSDiffusionPipeline()
 # this runs the pipeline with user input and saves the output as 'awesome.wav'
 @spaces.GPU(duration=120)
 def generate_waveform(description):
-    high_quality_description = "high quality " + description
+    high_quality_description = "high quality, " + description
     pipe(high_quality_description)
 
     generated_file_path = "./awesome.wav"
