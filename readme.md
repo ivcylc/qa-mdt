@@ -203,7 +203,7 @@ If you'd like to follow our process (though we don't recommend it, as it can be 
           f.write(key + '\n')
   ```
 
-otherwise, you can just the dataloader in [AudioLDM](https://github.com/haoheliu/AudioLDM-training-finetuning)
+otherwise, you can just use the dataloader in [AudioLDM](https://github.com/haoheliu/AudioLDM-training-finetuning)
 
 4. **Input your generated lmdb path and its corresponding key file path into the config**
 
