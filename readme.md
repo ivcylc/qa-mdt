@@ -1,4 +1,7 @@
 #  (OpenMusic) Awesome Open-source Text-to-music (TTM) generation: QA-MDT
+
+## We have succeeded in extending our model to long-form music generation in a zero-shot manner by [yusheng dai](https://github.com/dalision), and we will update it soon.
+
 ### Official Pytorch Implementation (try our demo first!)
 
 <a href="https://arxiv.org/pdf/2405.15863"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arXiv"></a> &ensp;
